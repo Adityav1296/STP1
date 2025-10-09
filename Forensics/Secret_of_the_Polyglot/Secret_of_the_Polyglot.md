@@ -13,7 +13,8 @@ The Network Operations Center (NOC) of your local institution picked up a suspic
 
 - Using a hex editor we can read the initial magic bytes of the file which shows:
 
-![Hex editor showing the initial magic bytes of the challenge file]("C:\Users\adity\OneDrive\Pictures\Screenshots\Screenshot 2025-10-09 182423.png")
+  <img width="857" height="162" alt="Screenshot 2025-10-09 182423" src="https://github.com/user-attachments/assets/c50ea8aa-b3c0-4596-b8b5-172f88cda66a" />
+
 
 - Since the file is shown to be a png file, we first change the file extension to `png`. That way we can obtaing the first half of the flag : `picoCTF{f1u3n7_`
 - After that, we can use the hex editor to change the initial magic bytes of the file to those of a pdf : `25 50 44 46 2D` and save the file. This time when we open it, we will get the second half of the flag : `1n_pn9_&_pdf_2a6a1ea8}`
