@@ -18,15 +18,18 @@ Jacky is not very knowledgable about the best security passwords and used a simp
 The password that we need to find gives us the access to this VMK and that's how we can open up the disk file.
 - So with that in mind, I searched further and found that the password or the key to VMK is SHA-256 hashed. Therefore I first obtained that hashed value: 
    
-   hash image
+   <img width="934" height="770" alt="Screenshot 2025-10-10 183819" src="https://github.com/user-attachments/assets/046ce491-6b20-44d5-9744-31a6f4c840fb" />
+
 
 - Then I used the `hashcat` command and provided it with the widely known `rockyou.txt` password wordlist to decode the actual password.
 
-   password decode image
+   <img width="942" height="716" alt="Screenshot 2025-10-10 183748" src="https://github.com/user-attachments/assets/c3352879-868c-4241-9a46-502482d2f56f" />
 
 - Once I got the password, I simply opened the file in autopsy and found the text document that contained the flag.
    
-   flag
+   <img width="1704" height="730" alt="Screenshot 2025-10-10 183833" src="https://github.com/user-attachments/assets/78a5f15f-449f-4258-b846-e13aabc301db" />
+
+
 
 ## Learnings
 1. The disk image files are generally encrypted using bitlocker software to preserve their data and prevent its misuse.
