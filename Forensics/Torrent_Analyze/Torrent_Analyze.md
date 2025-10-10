@@ -3,7 +3,7 @@ Author : Mubarak Mikail
 
 Category : Forensics
 
-Difficulty : Easy
+Difficulty : Medium
 
 ## Description
 SOS, someone is torrenting on our network.
