@@ -14,12 +14,12 @@ One of your colleagues has been using torrent to download some files on the comp
 
 - To open the torrent.pcap file, we use a packet capture application such as Wireshark. Once opened, we enable the following protocols to search for torrent files : 
 
-   ![Enabled Torrent Protocols](<Screenshot 2025-10-10 084349.png>)
+   <img width="1230" height="319" alt="Screenshot 2025-10-10 084349" src="https://github.com/user-attachments/assets/f35d4176-6f13-4f53-ac86-9d8f09e254ad" />
 
 - Now, searching for entries by applying these filters, we find a number of entries of `bt-dht` type with the ip address `192.168.73.132` occuring mulitple times. Therefore I assumed that this is the source address that we need to look for. 
 - For a torrent file downloaded via a magnet link, the metadata is stored in the info_hash which is the SHA1 sum of the torrent file and is found in the bencode of the torrent files. Therefore, we use it along with the ip address that we found before as the new search filter :
    
-   ![search results](<Screenshot 2025-10-10 094347.png>)
+   <img width="1318" height="702" alt="Screenshot 2025-10-10 094347" src="https://github.com/user-attachments/assets/8009623c-527c-4eed-88ec-cfebc9818bd9" />
 
 - We can see that all these files have the same source address and the same info_hash. Now, searching up the info_hash on a browser gives us the name of the file downloaded which is : `ubuntu-19.10-desktop-amd64.iso`
 
