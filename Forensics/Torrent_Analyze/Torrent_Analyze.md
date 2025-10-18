@@ -37,7 +37,7 @@ One of your colleagues has been using torrent to download some files on the comp
    2. integers
    3. lists
    4. dictionaries
-The metadata files are bencoded dictionaries.
+(The metadata files are bencoded dictionaries.)
 
 ## References
 1. [Wikipedia : Bencode](https://en.wikipedia.org/wiki/Bencode)
