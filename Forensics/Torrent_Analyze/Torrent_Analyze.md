@@ -41,5 +41,5 @@ One of your colleagues has been using torrent to download some files on the comp
 
 ## References
 1. [Wikipedia : Bencode](https://en.wikipedia.org/wiki/Bencode)
-2. [StackOverflow : info_Hash](https://stackoverflow.com/questions/28348678/what-exactly-is-the-info-hash-in-a-torrent-file)
+2. [What is a Torrent Info Hash and How to Use It](https://www.cogipas.com/torrent-info-hash/)
 3. [CTF Handbook : Wireshark](https://ctf101.org/forensics/what-is-wireshark/)
